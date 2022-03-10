@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1>Hangman</h1>
+        <div>
+            <input type="text" id="word" placeholder="add a word">
+            <button type="submit" id="addWord" onclick="addWord()">Add word</button>
+        </div>
+        <div id="boxes"></div>
+        <div>
+            <input type="text" id="indication" placeholder="add an indication">
+            <button type="submit" id="addIndication" onclick="addIndication()">Add indication</button>
+        </div>
+        <div id="list"></div>
+        <div id="inputs1">
+            <button value="a" id="addWord" onclick="check(this)">a</button>
+            <button value="b" id="addWord" onclick="check(this)">b</button>
+            <button value="c" id="addWord" onclick="check(this)">c</button>
+            <button value="d" id="addWord" onclick="check(this)">d</button>
+            <button value="e" id="addWord" onclick="check(this)">e</button>
+            <button value="f" id="addWord" onclick="check(this)">f</button>
+            <button value="g" id="addWord" onclick="check(this)">g</button>
+            <button value="h" id="addWord" onclick="check(this)">h</button>
+            <button value="i" id="addWord" onclick="check(this)">i</button>
+            <button value="j" id="addWord" onclick="check(this)">j</button>
+            <button value="k" id="addWord" onclick="check(this)">k</button>
+            <button value="l" id="addWord" onclick="check(this)">l</button>
+        </div>
+        <div id="inputs2">
+            <button value="m" id="addWord" onclick="check(this)">m</button>
+            <button value="n" id="addWord" onclick="check(this)">n</button>
+            <button value="o" id="addWord" onclick="check(this)">o</button>
+            <button value="p" id="addWord" onclick="check(this)">p</button>
+            <button value="q" id="addWord" onclick="check(this)">q</button>
+            <button value="r" id="addWord" onclick="check(this)">r</button>
+            <button value="s" id="addWord" onclick="check(this)">s</button>
+            <button value="t" id="addWord" onclick="check(this)">t</button>
+            <button value="u" id="addWord" onclick="check(this)">u</button>
+            <button value="w" id="addWord" onclick="check(this)">w</button>
+            <button value="x" id="addWord" onclick="check(this)">x</button>
+            <button value="y" id="addWord" onclick="check(this)">y</button>
+            <button value="z" id="addWord" onclick="check(this)">z</button>
+        </div>
+        <div id="result"></div><br>
+        <div id="lives">
+            <h1>5</h1>
+        </div>
+        <div id="rez"></div>
+    </body>
+</html>
